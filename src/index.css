@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    appearance: none;
+    display: none;
+}
+
+.authBg {
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 3rem 0;
+    background: url('/auth-img.jpg');
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
